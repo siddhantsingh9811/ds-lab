@@ -1,3 +1,3 @@
-DS-LAB Bullshit
+DS-LAB 
 make new branch for each class
 yay
