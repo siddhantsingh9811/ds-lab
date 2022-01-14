@@ -1,4 +1,4 @@
-DS-LAB Bullshit
+DS-LAB 
 Class-1
 1. **DONE** Find sum of all array elements using recursion.
 2. **DONE** Create an array ‘a1’ with ‘n’ elements. Insert an element in ith position of ‘a1’ and also delete an
