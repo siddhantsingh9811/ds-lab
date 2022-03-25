@@ -18,16 +18,17 @@ void main(){
     enqueue(1);
     enqueue(2);
     enqueue(3);
-    peek();
-    dequeue();
-    dequeue();
-    dequeue();
-    dequeue();
-    enqueue(1);
-    enqueue(2);
-    enqueue(3);
     enqueue(4);
+    peek();    
+    dequeue();
+    dequeue();
+    dequeue();
+    dequeue();
+    dequeue();
     enqueue(5);
+    peek();
+    
+
 }
 
 void dequeue(){
@@ -62,9 +63,10 @@ void peek(){
         printf("Queue is empty\n");
     }
     else{
-        printf("Elements:\n");
+        printf("Elements: ");
         for(int i = 0; i<=rear; i++){
-            printf("%d\n",queue[i]);
+            printf("%d -> ",queue[i]);
         }
+        printf("END\n");
     }
 }
