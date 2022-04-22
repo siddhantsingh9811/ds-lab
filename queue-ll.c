@@ -76,10 +76,5 @@ void main(){
     enqueue(4);
     peek();    
     dequeue();
-    dequeue();
-    dequeue();
-    dequeue();
-    dequeue();
-    enqueue(5);
-    peek();
+    showList(head);
 }
